@@ -13,17 +13,10 @@ import {
     nodejs,
     mongodb,
     git,
-
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
 } from "../assets";
 
 import Uber from '../assets/uber.png'
@@ -37,8 +30,8 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "project",
+        title: "Project",
     },
     {
         id: "contact",
