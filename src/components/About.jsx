@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import AwesomeGitHub from "./AwesomeGithub";
 
 const ServiceCard = ({ index, title, icon }) => (
   <div className="xs:w-[250px] w-full">
@@ -47,18 +48,20 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        An aspiring web developer, a lifelong learner, skilled in front-end and
+        back-end web development and passionate about creating responsive and
+        user-friendly websites. Eager to begin career as a web
+        developer.Currently learing CSS, JavaScript,React,HTML,Chakra UI,
+        Nodejs. real-world problems. Let's work together to bring your ideas to
+        life!
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+<AwesomeGitHub/>
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

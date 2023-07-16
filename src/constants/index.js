@@ -13,6 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
+
     figma,
     docker,
     meta,
@@ -24,6 +25,11 @@ import {
     tripguide,
     threejs,
 } from "../assets";
+
+import Uber from '../assets/uber.png'
+import Health from "../assets/doctor.png";
+import Sagar from '../assets/sagar.png'
+import Live from "../assets/live.png"
 
 export const navLinks = [
     {
@@ -38,10 +44,7 @@ export const navLinks = [
         id: "contact",
         title: "Contact",
     },
-    {
-        id :"resume",
-        title:"Resume"
-    }
+
 ];
 
 const services = [
@@ -101,21 +104,10 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
+
 ];
 
 const experiences = [
@@ -202,30 +194,73 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Uber Clone",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Uber is a transportation company with an app that allows passengers to hail a ride and drivers to charge fares and get paid. More specifically, Uber is a ridesharing company that hires independent contractors as drivers.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "mongoDB",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "scss",
                 color: "pink-text-gradient",
             },
+            {
+                name: "redux",
+                color: "blue-text-gradient"
+            }, {
+                name: "express",
+                color: "pink-text-gradient"
+            },
+            {
+                name: "Chakra UI",
+                color: "green-text-gradient"
+            },
+
+
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: Uber,
+        source_code_link: "https://github.com/Gauravshukla82/ambiguous-oven-8467",
+        live: Live,
+        live_source_link: "https://savariapp.netlify.app/"
     },
     {
-        name: "Job IT",
+        name: "Healthcare",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "This project is an online platform for consulting with doctors and making appointments in a healthcare hospital. The platform is built with React, Redux, JSON Server, Chakra UI, CSS, HTML, and JavaScript",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "chakra",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "sytled components",
+                color: "blue-text-gradient",
+            },
+
+        ],
+        image: Health,
+        source_code_link: "https://github.com/sagartiwary/ashamed-rainstorm-9299/tree/main/hospital-expertise",
+        live: Live,
+        live_source_link: "https://helthcarehopital.vercel.app/"
+    },
+    {
+        name: "Github-Profile",
+        description:
+            "GitHub is a web-based platform used for version control and collaboration in software development projects. It allows developers to track changes, manage code repositories, and work together on codebases efficiently. With features like pull requests.",
         tags: [
             {
                 name: "react",
@@ -240,29 +275,10 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: Sagar,
+        source_code_link: "https://github.com/sagartiwary/Github-Users",
+        live: Live,
+        live_source_link: "https://github-pi-two.vercel.app/login"
     },
 ];
 
