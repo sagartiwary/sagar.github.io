@@ -23,7 +23,7 @@ import Uber from '../assets/uber.png'
 import Health from "../assets/doctor.png";
 import Sagar from '../assets/sagar.png'
 import Live from "../assets/live.png"
-
+import Realtor from "../assets/realtor.png"
 export const navLinks = [
     {
         id: "about",
@@ -251,7 +251,7 @@ const projects = [
         live_source_link: "https://helthcarehopital.vercel.app/"
     },
     {
-        name: "Github-Profile",
+        name: "Realtor-Clone",
         description:
             "GitHub is a web-based platform used for version control and collaboration in software development projects. It allows developers to track changes, manage code repositories, and work together on codebases efficiently. With features like pull requests.",
         tags: [
@@ -268,10 +268,10 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: Sagar,
-        source_code_link: "https://github.com/sagartiwary/Github-Users",
+        image: Realtor,
+        source_code_link: "https://github.com/sagartiwary/Realtor-Clone",
         live: Live,
-        live_source_link: "https://github-pi-two.vercel.app/login"
+        live_source_link: "https://my-realtor-rust.vercel.app/"
     },
 ];
 
